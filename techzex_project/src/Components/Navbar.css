@@ -1,0 +1,48 @@
+/* navbar */
+.navbar {
+  padding: 1.75rem 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar-nav {
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav_item ul {
+  gap: 2.5rem;
+}
+
+.nav_item ul li {
+  gap: 2.5rem;
+}
+
+.nav_item ul li a {
+  color: black;
+}
+
+.nav_item .category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.navbar .logininfo {
+  font-size: 1.25rem;
+  width: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user {
+  width: 4rem;
+  display: flex;
+  gap: 0.25rem;
+}
